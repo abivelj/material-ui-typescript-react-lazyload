@@ -1,0 +1,36 @@
+{
+  "name": "material-ui-typescript-react-lazyload",
+  "version": "1.0.0",
+  "description": "Simple way to use typescript and material-ui and createStyles on custom components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack -d --mode development",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Sehab Veljacic",
+  "bugs": {
+    "url": "https://github.com/abivelj/material-ui--typescript-react-lazyload/issues"
+  },
+  "keywords": [
+    "react", "reactjs", "material", "materialui", "material-ui", "lazyload", "js", "typescript"
+  ],
+  "readme": "README.md",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.1.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "ts-loader": "5.2.1",
+    "typescript": "3.1.1",
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^3.1.2",
+    "@types/react-dom": "^16.0.8",
+    "path": "^0.12.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
